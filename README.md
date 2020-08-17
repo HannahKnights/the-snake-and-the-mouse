@@ -5,7 +5,7 @@
 *poetry & scrolling words*
 
 
-This is a [free online 1 hour workshop(https://forms.gle/gHZB45pGu2yePvGu6), on Sunday, August 23rd at 4 PM (EST)
+This is a [free online 1 hour workshop](https://forms.gle/gHZB45pGu2yePvGu6), on Sunday, August 23rd at 4 PM (EST)
 
 The aim of this workshop is to teach a basic introduction to the Python programming language through the hands-on experience of writing some low-fi, light-weight and fun Python code. We (the mouse) will work with Python (the snake) to make some playful text-based poem-like work - taking inspiration from the form of concrete poetry.
 
