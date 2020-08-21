@@ -26,4 +26,5 @@ This workshop is a part of the final presentation for [Teaching as Art Online at
 
 No previous technical or writing skills are required to participate in this workshop. Places are limited, so if you are interested in joining please register below. Do feel free to email me directly if you have any questions studio.hannahknights@gmail.com
 
-Here is a related [are.na channel](https://www.are.na/hannah-knights/the-snake-and-the-mouse) with workshop material
+Here is a related [are.na channel](https://www.are.na/hannah-knights/the-snake-and-the-mouse) with workshop material and here is the sign-up [workshop form](https://docs.google.com/forms/d/e/1FAIpQLSdBSV5xO9ISC2Dj_rsM-dxBubJ7OHVx1dJsTCzifqsjMtauOg/viewform)
+
