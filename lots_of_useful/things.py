@@ -6,6 +6,10 @@ from random import shuffle
 def new_page():
     os.system('clear')
 
+def blink(words, length_of_blink = 1):
+    print(words)
+    take_a_breath(length_of_breath = length_of_blink)
+    new_page()
 
 def starry_introduction():
     star = '*'
