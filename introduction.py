@@ -1,5 +1,22 @@
 from lots_of_useful.things import *
 
+
+def starry_introduction():
+    star = '*'
+    sky = ' '
+    line_length = 100
+    numbers_list = [number for number in range(line_length / 2)]
+    for i in range(0,60):
+        if i == 30:
+            print('%sW E L C O M E' % (' ' * 20))
+        line = ''
+        while len(line) < line_length:
+            shuffle(numbers_list)
+            line += (sky * numbers_list[0])
+            line += (star)
+        take_a_breath(length_of_breath = 0.2)
+        print(line)
+
 title = [
     'the snake and the mouse',
     '~' * 25,
@@ -21,22 +38,19 @@ introduction = [
     'The aim of this workshop is to teach a basic introduction to the Python programming language through the hands-on experience of writing some low-fi, light-weight and fun Python code.',
     'We (the mouse) will work with Python (the snake) to make some playful text-based poem-like work - taking inspiration from the form of concrete poetry.',
     '',
-    'Along the way we will pause & touch on the following ideas:',
+    'Along the way we will touch on the following ideas:',
     '',
-    '    * empathetic coding',
-    '    * coding with care & kindness',
+    '    * concrete poetry /artists practicing with text-based work',
+    '    * coding with empathy, care & kindness',
     '    * writing code like writing stories',
-    '    * writing code in our own idiolect',
-    '    * coding as your tool',
-    '    * python exception handling as a model for empathy',
-    '    * concrete poetry / fluxus',
-    '    * de-mystifying programming'
+    '    * writing code in our own idiolect (https://www.google.com/search?q=idiolect)',
+    '    * coding as your tool'
 ]
 
 schedule = [
-    # 'An introduction (10 mins)',
-    # 'A presentation on exceptions in Python (20 mins)',
-    # 'An activity (20 mins)',
+    'A brief introduction to python, looking at what it does / does not understand',
+    'A look at some examples of artists working with text',
+    'Making some text-based python scripts ourselves',
 ]
 
 things_you_will_need = [
@@ -73,9 +87,9 @@ if schedule:
     take_a_breath()
 
 # things_you_will_need
-if things_you_will_need:
-    print('What will you need:')
-    for thing_you_will_need in things_you_will_need:
-        take_a_breath(with_space = False)
-        print('%s* %s' % ((' ' * 5), thing_you_will_need))
-    take_a_breath()
+# if things_you_will_need:
+#     print('What will you need:')
+#     for thing_you_will_need in things_you_will_need:
+#         take_a_breath(with_space = False)
+#         print('%s* %s' % ((' ' * 5), thing_you_will_need))
+#     take_a_breath()

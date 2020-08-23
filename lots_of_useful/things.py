@@ -11,22 +11,6 @@ def blink(words, length_of_blink = 1):
     take_a_breath(length_of_breath = length_of_blink)
     new_page()
 
-def starry_introduction():
-    star = '*'
-    sky = ' '
-    line_length = 100
-    numbers_list = [number for number in range(line_length / 2)]
-    line_length = 100
-    for i in range(0,100):
-        if i == 50:
-            print('%sW E L C O M E' % (' ' * 20))
-        line = ''
-        while len(line) < line_length:
-            shuffle(numbers_list)
-            line += (sky * numbers_list[0])
-            line += (star)
-        take_a_breath(length_of_breath = 0.3)
-        print(line)
 
 def take_a_breath(number_of_breaths = 1, with_space = True, length_of_breath = 4):
     """

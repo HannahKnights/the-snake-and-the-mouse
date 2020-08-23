@@ -25,7 +25,7 @@ inspirations = [
     # concrete poetry quote
     '"Concrete poets endeavoured to create a universal language that could be read both visually and verbally a form of compressed communication for a new world in which language had begun to be rapidly reduced consumed reformed and circulated." (From Bryony Gillard\'s essay: http://www.documnt.net/bryony-gillard-an-exploration-of-verbivocovisual-borders-and-margins)',
     # womens contribution to concrete poetry
-    'An collection of concrete poetry contributions by women: https://www.are.na/sarah-hamerman/women-in-concrete-poetry',
+    'A collection of concrete poetry contributions by women: https://www.are.na/sarah-hamerman/women-in-concrete-poetry',
     # use of technology, like typewritters in patern creation
     'Anni Albers (https://www.are.na/block/3926891)',
     # more direct visual representation, "visual" poetry
